@@ -11,10 +11,7 @@
 
 			];
 
-		// if (!$data) {
-		// 	die("Maaf ada masalah dalam database");
-		// 	exit(1);
-		// }
+		
 
 		  	$db	=	new PDO($data['dns'],$data['user'],$data['pass']);
 
