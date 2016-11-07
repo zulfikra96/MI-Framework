@@ -1,7 +1,8 @@
 <?php
-// isi url anda di bawah ini contoh http://localhost/
+// isi url anda di bawah ini contoh http://localhost/ atau url website anda
 
 define('URL', 'http://localhost/MIframework/'); //
+
 
 
 
