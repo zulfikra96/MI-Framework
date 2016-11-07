@@ -1,101 +1,25 @@
-.body{
-	background-color: #f5f2f2;
-}
-.w3-edit .w3-blue-edit:hover{
-	background-color:#1e87da;
-	color: #fff;
-}
-.sub-banner{
-	height: 450px;
-	background-attachment: fixed;
-}
-.profile-edit{
-	width: 180px;
-	border:2px solid #fff;
-	margin-top: 100px;
-}
-.banner-text-large{
-	color: #fff;
-}
-.banner-text-small{
-	color: #2196f3;
-}
-.banner-text-span{
-	font-weight: lighter;
-}
-.img-text-edit{
-	margin-top: -35px;
-}
 
-
-
-.section{
-	border-radius: 5px;
-	background-color: #fff;
+h1{
+	padding: 0px;
+	color: #313233;
+	font-family: inherit;
+	font-size: 100px;
+	text-align: center;
+	margin-bottom: -20px;
+	margin-top: 160px;
 }
-.panel-right{
-	
+.beta{
+	font-size: 0.5em;
 }
-.blog-section{
-	padding-top: 10px;
-	border-radius: 5px;
-	padding-bottom: 20px;
+.garis{
+	width: 500px;
 }
-.date{
-
-	color: #98999a;
+h4{
+	color: #313233;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 0em;
+	padding: 0em;
+	text-align: center;
+	font-style: italic;
 }
-.paragraph{
-	color: #939394;
-}
-.page-paragraph{
-    color: #292929
-}
-.sub-panel-right{
-	padding: 20px;
-	border-radius: 5px;
-	background-color: #fff;
-}
-.form-search{
-	
-}
-
-
-footer{
-    height: 120px;
-    background-color: #292929;
-    margin-top: 50px;
-}
-
-.social-media{
-    font-family: "Lobster", serif;
-    color: #d5d7d8;
-}
-
-.profil-body{
-    background-color: #45a7ef;
-    
-}
-
-.profil{
-    color: #fff;
-}
-
-.photo-profil{
-    border: 1px solid #fff;
-    margin-top: 20px;
-}
-
-.about-me{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.under-line{
-    border-bottom:1px solid #b7b7b7;
-}
-
-.komentar-anchor:hover{
-    text-decoration: none;
-}
-
