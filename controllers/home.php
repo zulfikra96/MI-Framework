@@ -6,9 +6,8 @@ class home extends controller{
 
 	public function __construct()
 	{
-			//Session::init();
+			//tulis kode disini
 	}
-
 
 	public function index()
 	{
