@@ -24,7 +24,9 @@ define('URL', 'http://localhost/MIframework/'); //
 
 
 
-
+function URL($url){
+  echo URL.$url;
+}
 
 
 
