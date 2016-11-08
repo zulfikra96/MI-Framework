@@ -18,7 +18,6 @@
 	<title>Document</title>
 </head>
 <body>
-	<?php require 'assets/partials/navbar.php'; ?>
 	<h1 align="center" style="padding-top: 20px;">Sorry The page you looking is not found</h1>
 </body>
 </html>
