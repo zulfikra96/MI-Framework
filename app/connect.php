@@ -5,13 +5,13 @@
 
 			$data 	= 	[
 
-				'dns' 	=> 'mysql:host=localhost;dbname='.dbName,
+				'dns' 	=> 'mysql:host='.host.';dbname='.dbName,
 				'user'	=>	username,
 				'pass'	=>	password
 
 			];
 
-		
+
 
 		  	$db	=	new PDO($data['dns'],$data['user'],$data['pass']);
 
