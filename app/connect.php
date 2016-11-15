@@ -1,6 +1,17 @@
 <?php
+namespace Database;
+use PDO;
 
+class Connect extends PDO
+{
 
+	function __construct()
+	{
+			//
+	}
+
+	public static function DB()
+	{
 		try {
 
 			$data 	= 	[
@@ -11,13 +22,17 @@
 
 			];
 
-
-
-		  	$db	=	new PDO($data['dns'],$data['user'],$data['pass']);
+		  	return $db	=	new PDO($data['dns'],$data['user'],$data['pass']);
 
 		} catch (	PDOException $e) {
 			echo $e->getMessage();
 		}
+	}
+
+}
+
+
+
 
 
 		//	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

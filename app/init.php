@@ -4,6 +4,7 @@
 require 'config/database.php';
 require 'connect.php';
 require 'session.php';
+require 'models.php';
 require 'config/path.php';
 require 'redirect.php';
 require 'controller.php';

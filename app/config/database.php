@@ -1,4 +1,5 @@
 <?php
+
 //definisikan  database dibawah ini,
 //host adalah hosting yang anda gunakan contoh localhost, 127.0.0.1 atau host yang anda gunakan
 //diwebsite anda

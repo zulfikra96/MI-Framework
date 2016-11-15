@@ -1,7 +1,9 @@
 <?php
-// isi url anda di bawah ini contoh http://localhost/ atau url website anda
 
-define('URL', 'http://localhost/MIframework/'); //
+
+
+
+define('URL', "http://".$_SERVER['SERVER_NAME']."/MIframework/"); //
 
 
 
